@@ -45,6 +45,8 @@ def response_with(code, value=None,
 def index():
     return "HELLO FROM SERVER"
 
+# API MAIN ENDPOINT
+
 
 @app.route('/api/predict', methods=['POST'])
 def pred():

@@ -9,7 +9,7 @@ a fake dataset
 - model.ipynb: The study File to generate the model and analytics
 - senfake.ipynb: The file to generate fake data through combining senegal road data and UK accidents data
 
-### FOLDERS
+## FOLDERS
 - /datasets: UK data(Accidents.csv, Casualties.csv, Vehicles.csv), Senegal Road Data(senegal_highway.csv),
   fake data *generated(Accidents1.csv)
 - /static: images
