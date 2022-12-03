@@ -17,7 +17,6 @@ def predict(data):
               'day_of_week', 'weather_conditions', 'road_surface_conditions', 'light_conditions', 'sex_of_driver', 'speed_limit']
 
     data = pd.DataFrame({v: [data[v]] for v in fields}).reset_index(drop=True)
-    print(data.shape)
 
     try:
         result = model.predict(data[fields])
@@ -54,6 +53,7 @@ def pred():
         res = predict(request.get_json())
         return response_with(200, value={'msg': res})
     except Exception:
+        print(traceback.format_exc())
         return response_with(500, value={'msg': 'Erreur Prediction'})
 
 

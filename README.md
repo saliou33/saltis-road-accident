@@ -11,7 +11,7 @@ a fake dataset
 
 ## FOLDERS
 - /datasets: UK data(Accidents.csv, Casualties.csv, Vehicles.csv), Senegal Road Data(senegal_highway.csv),
-  fake data *generated(Accidents1.csv)
+  fake data *generated(FakeAccidents.csv)
 - /static: images
 
 ## INSTALLATION
